@@ -8,3 +8,4 @@
 - add function `binary_tree_delete()`
 - add function `binary_tree_is_leaf()`
 - add function `binary_tree_is_root()`
+- add function `binary_tree_preorder()`
