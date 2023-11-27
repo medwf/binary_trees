@@ -12,3 +12,6 @@
 
 - fix error in `binary_tree_insert_left()` handle if parent == NULL.
 - fix error in `binary_tree_insert_right()` handle if parent == NULL.
+
+- add function `binary_tree_inorder()`
+- add function `binary_tree_postorder()`
