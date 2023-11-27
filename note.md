@@ -7,3 +7,4 @@
 - add fuction `binary_tree_insert_right()` it is same as left i just change from left to right
 - add function `binary_tree_delete()`
 - add function `binary_tree_is_leaf()`
+- add function `binary_tree_is_root()`
