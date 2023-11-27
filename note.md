@@ -9,3 +9,6 @@
 - add function `binary_tree_is_leaf()`
 - add function `binary_tree_is_root()`
 - add function `binary_tree_preorder()`
+
+- fix error in `binary_tree_insert_left()` handle if parent == NULL.
+- fix error in `binary_tree_insert_right()` handle if parent == NULL.
