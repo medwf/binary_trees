@@ -21,3 +21,4 @@
 - add function `binary_tree_height()`
 - add function `binary_tree_depth()`
 - add function `binary_tree_size()`
+- add function `binary_tree_leaves()`
