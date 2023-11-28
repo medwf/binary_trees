@@ -15,4 +15,8 @@
 
 - add function `binary_tree_inorder()`
 - add function `binary_tree_postorder()`
+
+# 11/28/2023
+
 - add function `binary_tree_height()`
+- add function `binary_tree_depth()`
