@@ -24,3 +24,4 @@
 - add function `binary_tree_leaves()`
 - add function `binary_tree_nodes()`
 - add function `binary_tree_balance()`
+- add function `binary_tree_is_full()`
