@@ -15,3 +15,4 @@
 
 - add function `binary_tree_inorder()`
 - add function `binary_tree_postorder()`
+- add function `binary_tree_height()`
