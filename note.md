@@ -25,3 +25,7 @@
 - add function `binary_tree_nodes()`
 - add function `binary_tree_balance()`
 - add function `binary_tree_is_full()`
+
+# 11/29/2023
+
+- add function `binary_tree_is_perfect()`
