@@ -31,3 +31,6 @@
 - add function `binary_tree_is_perfect()`
 - add function `binary_tree_sibling()`
 - add function `binary_tree_tree_uncle()`
+
+* try to solve advanced Tasks
+- add function `binary_trees_ancestor()` Lower ancestor 
