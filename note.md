@@ -29,3 +29,5 @@
 # 11/29/2023
 
 - add function `binary_tree_is_perfect()`
+- add function `binary_tree_sibling()`
+- add function `binary_tree_tree_uncle()`
