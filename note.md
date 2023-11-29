@@ -33,4 +33,6 @@
 - add function `binary_tree_tree_uncle()`
 
 * try to solve advanced Tasks
-- add function `binary_trees_ancestor()` Lower ancestor 
+- add function `binary_trees_ancestor()` Lower ancestor
+- another sulotion for this function
+- add function binary_tree_levelorder()

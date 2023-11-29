@@ -1,5 +1,4 @@
 #include "binary_trees.h"
-#include "9-binary_tree_height.c"
 
 /**
  *  FindNode - a function that check if node exist
