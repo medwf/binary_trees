@@ -27,7 +27,7 @@ int FindNode(int value, const binary_tree_t *node)
 binary_tree_t *
 binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second)
 {
-	if (!first && !second)
+	if (!first || !second)
 		return (NULL);
 
 	if (FindNode(second->n, first))
@@ -40,8 +40,8 @@ binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second)
 	{
 		if (FindNode(second->n, first->parent))
 			return ((void *)first->parent);
-		if (FindNode(first->parent->n, second))
-			return ((void *)first->parent);
+		if (FindNode(first->n, second->parent))
+			return ((void *)second->parent);
 	}
 	else
 		return ((void *)first->parent);
