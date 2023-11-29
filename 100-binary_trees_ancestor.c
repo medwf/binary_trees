@@ -2,19 +2,19 @@
 #include "9-binary_tree_height.c"
 
 /**
- *  FindNode - a function that check if node exist under node
- * @value: is The value of my node
- * @node: is a pointer to the node
+ *  FindNode - a function that check if node exist
+ * @first: is a pointer to the node
+ * @second: is a pointer to the node
  * Return: 1 on Success or 0 en failer.
  */
-int FindNode(int value, const binary_tree_t *node)
+int FindNode(const binary_tree_t *first, const binary_tree_t *second)
 {
-	if (value == node->n)
-		return (1);
-	if (!node->left && !node->right)
+	if (!second)
 		return (0);
+	if (first == second)
+		return (1);
 
-	return (FindNode(value, node->left) + FindNode(value, node->right));
+	return (FindNode(first, second->parent));
 }
 /**
  * binary_trees_ancestor -  a function that finds the lowest common
@@ -30,20 +30,7 @@ binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second)
 	if (!first || !second)
 		return (NULL);
 
-	if (FindNode(second->n, first))
+	if (FindNode(first, second))
 		return ((void *)first);
-
-	if (FindNode(first->n, second))
-		return ((void *)second);
-
-	if (first->parent->n != second->parent->n)
-	{
-		if (FindNode(second->n, first->parent))
-			return ((void *)first->parent);
-		if (FindNode(first->n, second->parent))
-			return ((void *)second->parent);
-	}
-	else
-		return ((void *)first->parent);
-	return (NULL);
+	return (binary_trees_ancestor(first->parent, second));
 }
