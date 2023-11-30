@@ -35,4 +35,9 @@
 * try to solve advanced Tasks
 - add function `binary_trees_ancestor()` Lower ancestor
 - another sulotion for this function
-- add function binary_tree_levelorder()
+- add function `binary_tree_levelorder()`
+
+# 11/30/2023
+
+- add function `binary_tree_is_complete()` can't find solution for now ... come back letter
+- add function `binary_tree_rotate_left() and right()` they have same algorithms
